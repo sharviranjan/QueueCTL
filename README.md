@@ -1,6 +1,4 @@
 # QueueCTL
-This system should manage background jobs with worker processes, handle retries using exponential backoff, and maintain a Dead Letter Queue (DLQ) for permanently failed jobs.
-# QueueCTL
 
 QueueCTL is a lightweight, production-grade CLI background job queue system written in Python. It uses SQLite for persistence, handles concurrent workers, and implements exponential backoff for retries with a Dead Letter Queue (DLQ).
 
